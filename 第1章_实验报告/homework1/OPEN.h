@@ -1,7 +1,9 @@
 #ifndef _OPEN_H_
 #define _OPEN_H_
-void Touch(int f);
 
-void Pull(int f);
+using namespace std;
+void Touch(string f);
+
+void Pull(string f);
 
 #endif

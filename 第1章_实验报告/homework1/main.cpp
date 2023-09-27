@@ -1,12 +1,16 @@
 #include<cstdio>
 #include<cstdlib>
+#include<cstring>
+#include<string>
+#include<iostream>
 #include"OPEN.h"
 #include"PUSH.h"
 #include"CLOSE.h"
+using namespace std;
 
 int main()
 {
-	int elephant = 1, fridge = 2;
+	string elephant = "elephant", fridge = "fridge";
 	
 	Touch(fridge);
 	Pull(fridge);

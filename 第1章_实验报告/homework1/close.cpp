@@ -1,7 +1,7 @@
 #include<iostream>
 #include"CLOSE.h"
 using namespace std;
-void Close(int f)
+void Close(string f)
 {
 	cout << "close " << f << endl;
 }

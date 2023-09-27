@@ -1,12 +1,12 @@
 #include<iostream>
 #include"PUSH.h"
 using namespace std;
-void Push(int f)
+void Push(string f)
 {
 	cout << "push " << f << endl;
 }
 
-void Fasten(int f)
+void Fasten(string f)
 {
 	cout << "fasten " << f << endl;
 }

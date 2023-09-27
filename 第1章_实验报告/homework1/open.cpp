@@ -1,12 +1,12 @@
 #include<iostream>
 #include"OPEN.h"
 using namespace std;
-void Touch(int f)
+void Touch(string f)
 {
 	cout << "touch " << f << endl;
 }
 
-void Pull(int f)
+void Pull(string f)
 {
 	cout << "pull " << f << endl;
 }

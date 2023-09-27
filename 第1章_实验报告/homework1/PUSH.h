@@ -1,6 +1,8 @@
 #ifndef _PUSH_H_
 #define _PUSH_H_
-void Push(int f);
-void Fasten(int f);
+
+using namespace std;
+void Push(string f);
+void Fasten(string f);
 
 #endif
